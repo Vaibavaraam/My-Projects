@@ -1,0 +1,23 @@
+import random
+Choices=['Rock','Paper','Scissors']
+AI=random.choice(Choices)
+Me=False
+while True:
+    Me=input("Enter your weapon")
+    if Me==AI:
+        print("It's Tie")
+    elif Me=="Rock":
+        if AI=='Scissors':
+            print("You Lose!!")
+        else:
+            print('You Win!!')
+    elif Me=='Paper':
+        if AI=='Scissors':
+            print("You Lose!!")
+        else:
+            print('You Win!!')
+    elif Me=='Rock':
+        if AI=='Paper':
+            print("You Lose!!")
+        else:
+            print("You Win!!")
