@@ -1,0 +1,19 @@
+total=0
+# for j in range(4):
+#  Student=input("The Students Name Is")
+#  for i in range(5):
+#     marks= float(input("Enter Your Marks:"))
+#     total += marks
+# print(total)
+# Calculator=(total//5)
+# print(Calculator)
+# if Calculator>=90:
+#     print("Grade A")
+# elif Calculator>=80:
+#     print("Grade B")
+# elif Calculator>=70:
+#     print("Grade C")
+# elif Calculator>=60:
+#     print("Grade D")
+# else:
+#     print("Grade E")
