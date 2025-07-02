@@ -1,0 +1,15 @@
+Storage=[]
+Even=[]
+Odd=[]
+print(Storage)
+for i in range(20):
+    Num=int(input("Enter the numbers"))
+    Storage.append(Num)
+print(Storage)
+for i in Storage:
+    if i%2==0:
+        Even.append(i)
+    else:
+        Odd.append(i)
+print(Even)
+print(Odd)
