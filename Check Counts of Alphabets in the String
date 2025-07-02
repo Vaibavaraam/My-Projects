@@ -1,0 +1,8 @@
+def Project():
+    Vowels=input("Enter the Word").lower()
+    Alphabet="a,e,i,o,u"
+    count=0
+    for i in Vowels:
+        if i in Alphabet:
+            count+=1
+    print("The Number Of Vowels Present In The Word", count)
